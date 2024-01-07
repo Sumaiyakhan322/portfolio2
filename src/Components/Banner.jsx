@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import banner from '../../src/assets/banner.jpg'
 const Banner = () => {
   useEffect(() => {
     AOS.init({
@@ -92,8 +92,8 @@ const Banner = () => {
         </div>
         <div data-aos="fade-left" className="flex justify-center items-center">
           <img
-            className="md:w-[380px] md:h-[380px] w-[300px] h-[300px]  rounded-full  bg-gradient-to-r p-[6px] from-[#fff] via-[#e02121] to-[#000000]"
-            src="./image.jpg"
+            className="md:w-[380px] md:h-[380px] w-[300px] h-[300px]  rounded-full  bg-gradient-to-r p-[6px] from-[#fff] via-[#e02121] to-[#000000] object-cover"
+            src={banner} 
             alt=""
           />
         </div>

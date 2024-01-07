@@ -33,11 +33,11 @@ export const ContactUs = () => {
   return (
     <div
       id="contact"
-      className="md:px-14  px-4 py-8 text-white bg-gradient-to-b from-red-950 to-black"
+      className="md:px-14  px-4 py-14 text-white bg-gradient-to-b from-red-950 to-black"
     >
       <div className="container   py-4">
         {/* Section: Design Block */}
-        <section className="mb-32">
+        <section className="">
           <div className="flex flex-wrap">
             <div className="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 ">
               <h2 className="mb-6 text-5xl font-bold">Contact Me</h2>
