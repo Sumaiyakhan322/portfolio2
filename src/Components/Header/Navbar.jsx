@@ -40,31 +40,31 @@ const Navbar = () => {
               <div className="ml-10 flex items-baseline space-x-4">
                 <a
                   href="#home"
-                  className="text-gray-300 hover:bg-red-800 hover:text-white hover:texl-4xl px-3 py-2 rounded-md  "
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200 "
                 >
                   Home
                 </a>
                 <a
                   href="#about"
-                  className="text-gray-300 hover:bg-red-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
                 >
                   About
                 </a>
                 <a
                   href="#projects"
-                  className="text-gray-300 hover:bg-red-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
                 >
                   Projects
                 </a>
                 <a
                   href="#contact"
-                  className="text-gray-300 hover:bg-red-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
                 >
                   Contact
                 </a>
                 <div>
                   <button
-                    className="btn btn-outline bg-black border-red-900 border-4 hover:bg-red-800 text-white"
+                    className="  text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
                     onClick={downloadPdf}
                   >
                     Resume
@@ -120,19 +120,19 @@ const Navbar = () => {
                 <a href="https://www.facebook.com/tanzim.nahid.1/">
                   <BiLogoFacebookCircle
                     size={26}
-                    color="#ae0000"
+                    color="white"
                   ></BiLogoFacebookCircle>
                 </a>
               </div>
 
               <div className=" hover:scale-75 transition duration-200">
                 <a href="https://www.linkedin.com/in/al-jubayer/">
-                  <FaLinkedinIn size={26} color="#ae0000"></FaLinkedinIn>
+                  <FaLinkedinIn size={26}   color="white"></FaLinkedinIn>
                 </a>
               </div>
               <div className=" hover:scale-75 transition duration-200">
                 <a href="https://github.com/tanzimnahid6">
-                  <FaGithub size={26} color="#ae0000"></FaGithub>
+                  <FaGithub size={26}   color="white"></FaGithub>
                 </a>
               </div>
             </div>
