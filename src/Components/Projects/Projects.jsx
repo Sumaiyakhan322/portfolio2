@@ -243,7 +243,7 @@ const Projects = () => {
             Project Name:
             <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
               {" "}
-              Web Bazer
+              Web Bazaar
             </span>
           </h1>
           <p className="my-10 text-gray-300">
