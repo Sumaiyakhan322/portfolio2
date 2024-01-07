@@ -4,20 +4,18 @@ import { FaSchool, FaUniversity } from "react-icons/fa";
 import { RiSchoolFill } from "react-icons/Ri";
 import { MdGolfCourse } from "react-icons/Md";
 
-
-
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const EduSkill = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000, // Animation duration in milliseconds
-      once: true, // Only animate once
+      duration: 2000,
+      once: true,
     });
   }, []);
   return (
-    <div className="px-4 md:px-14 pt-16 bg-gradient-to-b from-green-800 to-gray-500">
+    <div className="px-4 md:px-14 py-16 bg-gradient-to-b from-black to-red-950 ">
       <h1 className="text-4xl font-bold text-white py-8">EDUCATION & SKILLS</h1>
       <div
         data-aos="fade-zoom-in"
@@ -75,7 +73,7 @@ const EduSkill = () => {
           <h1 className="text-4xl md:text-xl text-white pb-4 font-bold md:text-left text-center ">
             My Skills
           </h1>
-          <p className=" text-white pb-4">
+          <p className=" text-gray-200 pb-4">
             Experienced MERN stack developer adept at creating robust and
             scalable full-stack web applications. Proficient in MongoDB,
             Express.js, React.js, and Node.js, with a strong command of RESTful
@@ -83,20 +81,20 @@ const EduSkill = () => {
             delivering high-quality code and exceptional user experiences while
             adhering to best practices and industry standards.
           </p>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 text-2xl">
             <ProgressBar
               completed={70}
-              bgColor="linear-gradient(to right,#62C8F5, #ac5bdf)"
+              bgColor="linear-gradient(to bottom,#800000,#000000)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
               animateOnRender
               maxCompleted={100}
-              customLabel="javaScript"
+              customLabel="JavaScript"
             />
             <ProgressBar
               completed={80}
-              bgColor="linear-gradient(to right,#62C8F5, #ac5bdf)"
+              bgColor="linear-gradient(to bottom,#800000,#000000)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
@@ -106,7 +104,7 @@ const EduSkill = () => {
             />
             <ProgressBar
               completed={85}
-              bgColor="linear-gradient(to right,#62C8F5, #ac5bdf)"
+              bgColor="linear-gradient(to bottom,#800000,#000000)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
@@ -116,7 +114,7 @@ const EduSkill = () => {
             />
             <ProgressBar
               completed={60}
-              bgColor="linear-gradient(to right,#62C8F5, #ac5bdf)"
+              bgColor="linear-gradient(to bottom,#800000,#000000)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
@@ -126,7 +124,7 @@ const EduSkill = () => {
             />
             <ProgressBar
               completed={50}
-              bgColor="linear-gradient(to right,#62C8F5, #ac5bdf)"
+              bgColor="linear-gradient(to bottom,#800000,#000000)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"

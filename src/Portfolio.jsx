@@ -24,6 +24,7 @@ const Portfolio = () => {
       <Projects></Projects>
       <hr />
       <ContactUs></ContactUs>
+      <hr />
       <Footer></Footer>
     </div>
   );

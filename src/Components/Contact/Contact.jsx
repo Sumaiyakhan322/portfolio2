@@ -33,27 +33,24 @@ export const ContactUs = () => {
   return (
     <div
       id="contact"
-      className="md:px-14  px-4 py-8 text-white bg-gradient-to-b to-green-800 from-gray-500"
+      className="md:px-14  px-4 py-8 text-white bg-gradient-to-b from-red-950 to-black"
     >
       <div className="container   py-4">
         {/* Section: Design Block */}
         <section className="mb-32">
           <div className="flex flex-wrap">
             <div className="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 ">
-              <h2 className="mb-6 text-5xl font-bold">Contact us</h2>
-              <p className="mb-6 text-neutral-500 dark:text-neutral-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, modi accusantium ipsum corporis quia asperiores
-                dolorem nisi corrupti eveniet dolores ad maiores repellendus
-                enim autem omnis fugiat perspiciatis? Ad, veritatis.
+              <h2 className="mb-6 text-5xl font-bold">Contact Me</h2>
+              <p className="mb-6 text-gray-300 dark:text-neutral-300">
+              I`m thrilled to connect with you. Whether you have a project idea, want to discuss a potential collaboration, or just have a tech-related question, feel free to reach out. Your feedback and inquiries are always welcome.
               </p>
-              <p className="mb-2 text-neutral-500 dark:text-neutral-300">
+              <p className="mb-2 text-gray-300 dark:text-neutral-300">
                 Dhaka,Bangladesh
               </p>
-              <p className="mb-2 text-neutral-500 dark:text-neutral-300">
+              <p className="mb-2 text-gray-300 dark:text-neutral-300">
                 +880 1571167055
               </p>
-              <p className="mb-2 text-neutral-500 dark:text-neutral-300">
+              <p className="mb-2 text-gray-300 dark:text-neutral-300">
                 aljubayer.nahid@gmail.com
               </p>
             </div>
@@ -92,7 +89,7 @@ export const ContactUs = () => {
                   <input
                     type="submit"
                     value="Send"
-                    className="btn w-full hover:btn-primary"
+                    className="btn w-full hover:bg-red-950 hover:text-white"
                   />
                 </div>
               </form>
