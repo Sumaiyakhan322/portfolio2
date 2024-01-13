@@ -47,7 +47,7 @@ const Projects = () => {
   }, []);
   return (
     <div
-      className="py-16 bg-gradient-to-b from-black to-red-950 px-2 "
+      className="py-16 bg-gradient-to-l from-[#1d2e56] to-[#0B1120] px-2 "
       id="projects"
     >
       <h1 className="text-4xl text-center text-white mb-10 font-bold">
@@ -82,17 +82,17 @@ const Projects = () => {
           </Swiper>
           <div className="mx-auto flex md:justify-evenly my-5 md:flex-row flex-col justify-center items-center gap-6 md:gap-0">
             <Link to={"https://react-rtk-query-q-tube.vercel.app/"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+            <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Live-Link
               </button>
             </Link>
             <Link to={"https://github.com/tanzimnahid6/react-rtk-query-QTube"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Front-End-Code
               </button>
             </Link>
             <Link to={"https://github.com/tanzimnahid6/Qtube-server"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Back-End-Code
               </button>
             </Link>
@@ -101,7 +101,7 @@ const Projects = () => {
         <div className="py-10 text-white">
           <h1 className="text-3xl font-bold">
             Project Name:
-            <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#38BDF8] to-white bg-clip-text text-transparent">
               QTube Nexus
             </span>
           </h1>
@@ -115,7 +115,7 @@ const Projects = () => {
             handling for video content.
           </p>
           <p className="font-bold text-2xl my-4">Technologies:</p>
-          <div className="flex text-5xl justify-around font-extrabold text-red-600 flex-wrap md:flex-row gap-6 md:gap-0">
+          <div className="flex text-5xl justify-around font-extrabold  flex-wrap md:flex-row gap-6 md:gap-0">
             <FaReact></FaReact>
             <SiRedux></SiRedux>
             <SiExpress></SiExpress>
@@ -151,17 +151,17 @@ const Projects = () => {
           </Swiper>
           <div className="mx-auto flex md:justify-evenly my-5 md:flex-row flex-col justify-center items-center gap-6 md:gap-0">
             <Link to={"https://job-finder-client-one.vercel.app/"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Live-Link
               </button>
             </Link>
             <Link to={"https://github.com/tanzimnahid6/Job_finder_client"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Front-End-Code
               </button>
             </Link>
             <Link to={"https://github.com/tanzimnahid6/Job_finder_server"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Back-End-Code
               </button>
             </Link>
@@ -170,7 +170,7 @@ const Projects = () => {
         <div className="py-10 text-white">
           <h1 className="text-4xl font-bold">
             Project Name:
-            <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#38BDF8] to-white bg-clip-text text-transparent">
               Job Finder
             </span>
           </h1>
@@ -183,7 +183,7 @@ const Projects = () => {
             enhancing the overall user experience.
           </p>
           <p className="font-bold text-2xl my-4">Technologies:</p>
-          <div className="flex text-5xl justify-around font-extrabold text-red-600 flex-wrap md:flex-row gap-6 md:gap-0">
+          <div className="flex text-5xl justify-around font-extrabold  flex-wrap md:flex-row gap-6 md:gap-0">
             <FaReact></FaReact>
             <SiRedux></SiRedux>
             <SiExpress></SiExpress>
@@ -222,17 +222,17 @@ const Projects = () => {
           </Swiper>
           <div className="mx-auto flex md:justify-evenly my-5 md:flex-row flex-col justify-center items-center gap-6 md:gap-0">
             <Link to={"https://webbazer-f9d07.web.app/"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl md:text-lg text-sm">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Live-Link
               </button>
             </Link>
             <Link to={"https://github.com/tanzimnahid6/Web-bazer"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Front-End-Code
               </button>
             </Link>
             <Link to={"https://github.com/tanzimnahid6/webBazer_backend"}>
-              <button className="btn btn-outline border-red-800 border-2 text-white hover:bg-white hover:text-red-950 rounded-xl">
+              <button className="btn btn-outline border-[#38BDF8] border-2 text-white hover:bg-white hover:text-[#0D1322] rounded-xl">
                 Back-End-Code
               </button>
             </Link>
@@ -241,7 +241,7 @@ const Projects = () => {
         <div className="py-10 text-white">
           <h1 className="text-3xl font-bold">
             Project Name:
-            <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#38BDF8] to-white bg-clip-text text-transparent">
               {" "}
               Web Bazaar
             </span>
@@ -260,7 +260,7 @@ const Projects = () => {
             streamlining bid management.
           </p>
           <p className="font-bold text-2xl my-4">Technologies:</p>
-          <div className="flex text-5xl justify-around font-extrabold text-red-600 flex-wrap md:flex-row gap-6 md:gap-0">
+          <div className="flex text-5xl justify-around font-extrabold  flex-wrap md:flex-row gap-6 md:gap-0">
             <FaReact></FaReact>
             <SiRedux></SiRedux>
             <SiExpress></SiExpress>

@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-8 bg-gradient-to-b from-red-950 to-black  max-h-full"
+      className="py-8 bg-gradient-to-l from-[#1d2e56] to-[#0B1120]  max-h-full"
     >
       <div className="grid grid-cols-1 md:grid-cols-3 px-4 md:px-14">
         <div data-aos="fade-right" className="order-last md:order-first">
@@ -62,7 +62,7 @@ const About = () => {
             <h1 className="text-4xl md:text-6xl text-center md:text-left font-bold">
               About Me
             </h1>
-            <p className="text-2xl md:text-4xl mt-8 font-bold bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
+            <p className="text-2xl md:text-4xl mt-8 font-bold bg-gradient-to-r from-[#38BDF8] to-white bg-clip-text text-transparent">
               I am a Front-end Developer with over <br></br> 1 years of
               experience.
             </p>
@@ -82,12 +82,12 @@ const About = () => {
               <a
                 data-aos="fade-right"
                 href="#_"
-                className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-red-950 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
+                className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-[#0D1322] transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
               >
-                <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-red-900 group-hover:h-full"></span>
+                <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-[#0D1322] group-hover:h-full"></span>
                 <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                   <svg
-                    className="w-5 h-5 text-red-950"
+                    className="w-5 h-5 text-[#0D1322]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -103,7 +103,7 @@ const About = () => {
                 </span>
                 <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                   <svg
-                    className="w-5 h-5 text-white"
+                    className="w-5 h-5 text-[#38BDF8]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -119,7 +119,7 @@ const About = () => {
                 </span>
                 <span
                   onClick={downloadPdf}
-                  className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white"
+                  className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-[#38BDF8]"
                 >
                   Resume
                 </span>
@@ -127,12 +127,12 @@ const About = () => {
               <a
                 data-aos="fade-left"
                 href="#_"
-                className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-red-950 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
+                className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-[#0D1322] transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
               >
-                <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-red-900 group-hover:h-full"></span>
+                <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-[#0D1322] group-hover:h-full"></span>
                 <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                   <svg
-                    className="w-5 h-5 text-red-950"
+                    className="w-5 h-5 text-[#0D1322]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -148,7 +148,7 @@ const About = () => {
                 </span>
                 <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                   <svg
-                    className="w-5 h-5 text-white"
+                    className="w-5 h-5 text-[#38BDF8]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -162,7 +162,7 @@ const About = () => {
                     ></path>
                   </svg>
                 </span>
-                <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+                <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-[#38BDF8]">
                   Portfolio
                 </span>
               </a>

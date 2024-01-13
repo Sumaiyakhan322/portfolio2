@@ -13,11 +13,11 @@ const Banner = () => {
   }, []);
   return (
     <div id="home">
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 px-4 md:px-14  bg-gradient-to-b from-black to-red-950  max-h-full items-center justify-between w-full gap-4 pb-8">
+      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 px-4 md:px-14  bg-gradient-to-l from-[#1d2e56] to-[#0B1120]  max-h-full items-center justify-between w-full gap-4 pb-8">
         <div className="md:mt-12">
           <div className=" text-white ">
             <h1 className="text-[40px] font-bold">Hello,I am </h1>
-            <p className=" text-[40px] md:text-[55px] font-bold bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
+            <p className=" text-[40px] md:text-[55px] font-bold bg-gradient-to-r from-[#38BDF8] to-white bg-clip-text text-transparent">
               Aljubayer Hossain
             </p>
             <TypeAnimation
@@ -48,12 +48,12 @@ const Banner = () => {
               <a
                 data-aos="fade-up"
                 href="#contact"
-                className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-red-900 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
+                className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-[#0D1322] transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
               >
                 <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-black group-hover:h-full"></span>
                 <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                   <svg
-                    className="w-5 h-5 text-red-900"
+                    className="w-5 h-5 text-[#0D1322]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -69,7 +69,7 @@ const Banner = () => {
                 </span>
                 <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                   <svg
-                    className="w-5 h-5 text-white"
+                    className="w-5 h-5 text-[#38BDF8]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -83,7 +83,7 @@ const Banner = () => {
                     ></path>
                   </svg>
                 </span>
-                <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+                <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-[#38BDF8]">
                   Contact
                 </span>
               </a>
@@ -92,7 +92,7 @@ const Banner = () => {
         </div>
         <div data-aos="fade-left" className="flex justify-center items-center">
           <img
-            className="md:w-[380px] md:h-[380px] w-[300px] h-[300px]  rounded-full  bg-gradient-to-r p-[6px] from-[#fff] via-[#e02121] to-[#000000] object-cover"
+            className="md:w-[380px] md:h-[380px] w-[300px] h-[300px]  rounded-full  bg-gradient-to-r p-[6px] from-[#fff] via-[#38BDF8] to-[#000000] object-cover"
             src={banner} 
             alt=""
           />

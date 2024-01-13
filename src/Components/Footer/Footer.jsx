@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
     return (
-      <div className="px-4 md:px-14 bg-black  h- py-8 relative ">
-        <h1 className=" text-[40px] text-center font-bold text-red-800">
+      <div className="px-4 md:px-14 bg-[#0D1322]  h- py-8 relative ">
+        <h1 className=" text-[40px] text-center font-bold text-[#38BDF8]">
           Jubayer <span>Nahid</span>
         </h1>
         <ul className="flex justify-center gap-8 cursor-pointer text-white">

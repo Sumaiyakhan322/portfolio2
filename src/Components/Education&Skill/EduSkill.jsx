@@ -15,14 +15,14 @@ const EduSkill = () => {
     });
   }, []);
   return (
-    <div className="px-4 md:px-14 py-16 bg-gradient-to-b from-black to-red-950 ">
+    <div className="px-4 md:px-14 py-16 bg-gradient-to-l from-[#1d2e56] to-[#0B1120] ">
       <h1 className="text-4xl font-bold text-white py-8">EDUCATION & SKILLS</h1>
       <div
         data-aos="fade-zoom-in"
         className="grid grid-cols-1 w-full place-items-center md:grid-cols-2 gap-2 pb-4"
       >
-        <div className="bg-black shadow-lg md:w-3/4  w-full rounded-xl text-white p-8 ">
-          <h1 className="text-2xl font-bold pt-2 pb-8">Education</h1>
+        <div className="bg-[#0a1123]  md:w-3/4  w-full rounded-xl text-white p-8 shadow-2xl">
+          <h1 className="text-2xl font-bold pt-2 pb-8 text-[#38BDF8]">Education</h1>
 
           <div className="flex flex-col gap-6">
             <div>
@@ -55,7 +55,7 @@ const EduSkill = () => {
             </div>
 
             <div>
-              <h1 className="text-2xl font-bold pb-4">Courses</h1>
+              <h1 className="text-2xl font-bold pb-4 text-[#38BDF8]">Courses</h1>
 
               <div className="flex items-center gap-2 md:text-xl">
                 <span>
@@ -70,7 +70,7 @@ const EduSkill = () => {
         </div>
 
         <div className="p-8 w-full">
-          <h1 className="text-4xl md:text-xl text-white pb-4 font-bold md:text-left text-center ">
+          <h1 className="text-4xl md:text-xl pb-4 font-bold md:text-left text-center text-[#38BDF8]">
             My Skills
           </h1>
           <p className=" text-gray-200 pb-4">
@@ -84,7 +84,7 @@ const EduSkill = () => {
           <div className="flex flex-col gap-4 text-2xl">
             <ProgressBar
               completed={70}
-              bgColor="linear-gradient(to bottom,#800000,#000000)"
+              bgColor="linear-gradient(to bottom,#0B1120,#0B1120)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
@@ -94,7 +94,7 @@ const EduSkill = () => {
             />
             <ProgressBar
               completed={80}
-              bgColor="linear-gradient(to bottom,#800000,#000000)"
+              bgColor="linear-gradient(to bottom,#0B1120,#0B1120)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
@@ -104,7 +104,7 @@ const EduSkill = () => {
             />
             <ProgressBar
               completed={85}
-              bgColor="linear-gradient(to bottom,#800000,#000000)"
+              bgColor="linear-gradient(to bottom,#0B1120,#0B1120)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
@@ -114,7 +114,7 @@ const EduSkill = () => {
             />
             <ProgressBar
               completed={60}
-              bgColor="linear-gradient(to bottom,#800000,#000000)"
+              bgColor="linear-gradient(to bottom,#0B1120,#0B1120)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"
@@ -124,7 +124,7 @@ const EduSkill = () => {
             />
             <ProgressBar
               completed={50}
-              bgColor="linear-gradient(to bottom,#800000,#000000)"
+              bgColor="linear-gradient(to bottom,#0B1120,#0B1120)"
               labelAlignment="left"
               labelColor="#fdf7f7"
               transitionDuration="3s"

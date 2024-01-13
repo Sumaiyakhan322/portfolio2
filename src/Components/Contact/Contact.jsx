@@ -33,7 +33,7 @@ export const ContactUs = () => {
   return (
     <div
       id="contact"
-      className="md:px-14  px-4 py-14 text-white bg-gradient-to-b from-red-950 to-black"
+      className="md:px-14  px-4 py-14 text-white bg-gradient-to-l from-[#1d2e56] to-[#0B1120]"
     >
       <div className="container   py-4">
         {/* Section: Design Block */}
@@ -89,7 +89,7 @@ export const ContactUs = () => {
                   <input
                     type="submit"
                     value="Send"
-                    className="btn w-full hover:bg-red-950 hover:text-white"
+                    className="btn w-full hover:bg-[#0F172A] hover:text-white"
                   />
                 </div>
               </form>

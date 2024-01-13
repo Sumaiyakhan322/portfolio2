@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black w-full fixed z-10">
+    <nav className="bg-[#0D1322] w-full fixed z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 ">
           <div>
@@ -40,31 +40,31 @@ const Navbar = () => {
               <div className="ml-10 flex items-baseline space-x-4">
                 <a
                   href="#home"
-                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200 "
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium  border-none  hover:scale-75 transition duration-200 "
                 >
                   Home
                 </a>
                 <a
                   href="#about"
-                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium  border-none  hover:scale-75 transition duration-200"
                 >
                   About
                 </a>
                 <a
                   href="#projects"
-                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium  border-none  hover:scale-75 transition duration-200"
                 >
                   Projects
                 </a>
                 <a
                   href="#contact"
-                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
+                  className=" text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium  border-none  hover:scale-75 transition duration-200"
                 >
                   Contact
                 </a>
                 <div>
                   <button
-                    className="  text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black border-none  hover:scale-75 transition duration-200"
+                    className="  text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium  border-none  hover:scale-75 transition duration-200"
                     onClick={downloadPdf}
                   >
                     Resume
