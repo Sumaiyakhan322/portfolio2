@@ -77,7 +77,7 @@ const Navbar = () => {
             <button
               onClick={toggleNavbar}
               type="button"
-              className=" inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover: bg-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className=" inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover: bg-[] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded={isOpen ? "true" : "false"}
             >
@@ -157,31 +157,31 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
                 href="#home"
-                className="text-gray-300 hover:bg-red-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:bg-[#182234] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="text-gray-300 hover:bg-red-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:bg-[#182234] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 About
               </a>
-              <NavLink className="text-gray-300 hover:bg-red-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              <NavLink className="text-gray-300 hover:bg-[#182234] hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 Services
               </NavLink>
               <a
                 href="#contact"
-                className="text-gray-300 hover:bg-red-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:bg-[#182234] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Contact
               </a>
               <div>
                 <button
-                  className="btn  bg-[#960000] text-white"
+                  className="text-left w-full text-gray-300 hover:bg-[#182234] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   onClick={downloadPdf}
                 >
-                  RESUME
+                  Resume
                 </button>
               </div>
             </div>
